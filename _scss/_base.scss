@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,500,700');
+
+html,
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  background-color: #f1f6fd;
+  color: #333;
+}
+
+.hero-unit {
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../assets/images/landing.jpg')no-repeat center center;
+  background-size: cover;
+}
+
+.navbar-primary{
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+}
+.navbar-brand{
+  color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #eee;
+}
+
+.us-line{
+  border-top: 5px solid #3F51B5;
+  margin-top: 5px;
+  width: 10%;
+}
