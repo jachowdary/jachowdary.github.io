@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,500,700');
 
 html,
 body {
@@ -6,8 +6,15 @@ body {
   min-height: 100%;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
-  background-color: #f1f6fd;
+  //background-color: #f1f6fd;
   color: #333;
+}
+
+dt{
+  margin-top: 40px;
+}
+dd{
+  border-bottom: 1px solid #eee;
 }
 
 .hero-unit {
@@ -18,17 +25,34 @@ body {
 .navbar-primary{
   position: absolute;
   width: 100%;
-  background-color: transparent;
+  background-color: transparent !important;
+
 }
 .navbar-brand{
   color: #fff !important;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #eee;
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
 }
 
 .us-line{
-  border-top: 5px solid #3F51B5;
+  border-top: 4px solid #3F51B5;
   margin-top: 5px;
-  width: 10%;
+  width: 60px;
 }
+.bold-text{
+  font-weight: 700;
+}
+.slim-text{
+  font-weight: 100;
+}
+.text-container{
+  color: #fff;
+}
+.btn-border{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
