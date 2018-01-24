@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,500,700');
+
+html,
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  background-color: #f1f6fd;
+  color: #333;
+}
+
+dt{
+  margin-top: 40px;
+}
+dd{
+  border-bottom: 1px solid #eee;
+}
+
+.hero-unit {
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../assets/images/landing.jpg')no-repeat center center;
+  background-size: cover;
+}
+
+.navbar-primary{
+  position: absolute;
+  width: 100%;
+  background-color: transparent !important;
+
+}
+.navbar-brand{
+  color: #fff !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.8);
+}
+
+.us-line{
+  border-top: 4px solid #3F51B5;
+  margin-top: 5px;
+  width: 60px;
+}
+.bold-text{
+  font-weight: 700;
+}
+.slim-text{
+  font-weight: 100;
+}
+.text-container{
+  color: #fff;
+}
+.btn-border{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-border:hover{
+  background: #fff;
+  color: tranparent;
+}
+.weight{
+  font-weight:500;
+}
+.heron-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/jag.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.focus-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/focus.jpg") no-repeat center center;
+  background-size: cover; 
+}
+
+.interviews-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/interviews.jpg") no-repeat center center;
+  background-size: cover; 
+}
+
+.articles-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/articles.jpg") no-repeat center center;
+  background-size: cover; 
+}
+
+.videos-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/landing.jpg") no-repeat center center;
+  background-size: cover; 
+}
+
+
+
