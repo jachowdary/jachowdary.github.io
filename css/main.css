@@ -9,6 +9,90 @@ body {
   background-color: #f1f6fd;
   color: #333;
 }
+.navbar{
+  padding: 0px;
+}
+.navbar-transparent{
+  background:rgba(0,0,0,0.4);
+  position: relative;
+  color: #000;
+  border-radius: 0px;
+  z-index: 1;
+  margin: 0px;
+  padding: 20px;
+}
+
+.nav-image{
+  width: 100px;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.navbar-transparent{
+  background: none;
+  position: absolute;
+  color: #000000;
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-image{
+  width: 100px;
+}
+
+@media(max-width: 746px){
+  .navbar-transparent{
+    background:rgba(0,0,0,0.6);
+  }
+  .center-res{
+    text-align: center;
+  }
+}
+@media(max-width: 575){
+  .center-res{
+    text-align: center;
+  }
+}
+@media(max-width: 946px){
+  .nav-image{
+    width: 50px;
+  }
+}
+.nav-link{
+  color: #FFF;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav-link:hover{
+  color: #EEE;
+}
+
+@media(max-width: 746px){
+  .navbar-transparent{
+    background:rgba(0,0,0,0.4);
+  }
+  .center-res{
+    text-align: center;
+  }
+}
+@media(max-width: 575){
+  .center-res{
+    text-align: center;
+  }
+}
+@media(max-width: 946px){
+  .nav-image{
+    width: 50px;
+  }
+}
+
 
 dt{
   margin-top: 40px;
@@ -73,12 +157,12 @@ dd{
 }
 
 .interviews-unit {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/interviews.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://cdn.discordapp.com/attachments/391971809563508738/405685559089168384/Screen_Shot_2018-01-24_at_4.59.09_PM.png") no-repeat center center;
   background-size: cover; 
 }
 
 .articles-unit {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/articles.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://cdn.discordapp.com/attachments/391971809563508738/405686739198410762/Screen_Shot_2018-01-24_at_5.03.55_PM.png") no-repeat center center;
   background-size: cover; 
 }
 
@@ -86,6 +170,5 @@ dd{
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/landing.jpg") no-repeat center center;
   background-size: cover; 
 }
-
 
 
