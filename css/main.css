@@ -6,7 +6,7 @@ body {
   min-height: 100%;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #333;
 }
 
@@ -110,12 +110,20 @@ dd{
 }
 
 .articles-unit {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://cdn.discordapp.com/attachments/391971809563508738/405686739198410762/Screen_Shot_2018-01-24_at_5.03.55_PM.png") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/art.jpg") no-repeat center center;
   background-size: cover; 
 }
 
 .videos-unit {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/landing.jpg") no-repeat center center;
+  background-size: cover; 
+}
+.about-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/jag.jpg") no-repeat center center;
+  background-size: cover; 
+}
+.exp-unit {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/exp.jpg") no-repeat center center;
   background-size: cover; 
 }
 
