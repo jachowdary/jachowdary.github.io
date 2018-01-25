@@ -100,12 +100,12 @@ dd{
 }
 
 .focus-unit {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/focus.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/focus.jpg") no-repeat center top;
   background-size: cover; 
 }
 
 .interviews-unit {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://cdn.discordapp.com/attachments/391971809563508738/405685559089168384/Screen_Shot_2018-01-24_at_4.59.09_PM.png") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/exp.jpg") no-repeat center center;
   background-size: cover; 
 }
 
@@ -123,7 +123,7 @@ dd{
   background-size: cover; 
 }
 .exp-unit {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/exp.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/interview.jpg") no-repeat center top;
   background-size: cover; 
 }
 
