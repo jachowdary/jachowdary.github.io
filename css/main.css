@@ -9,6 +9,9 @@ body {
   background-color: #ffffff;
   color: #333;
 }
+/* ============================================================================== */
+/* Navbar */
+/* ============================================================================== */
 .navbar{
   padding: 0px;
 }
@@ -100,6 +103,9 @@ dd{
 .weight{
   font-weight:500;
 }
+/* ============================================================================== */
+/* images*/
+/* ============================================================================== */
 .heron-unit {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../assets/images/jag.jpg") no-repeat center center;
   background-size: cover;
@@ -133,4 +139,29 @@ dd{
   background-size: cover; 
 }
 
+/* ============================================================================== */
+/* articles */
+/* ============================================================================== */
+ img {
+     object-fit: cover;
+    height: 350px;
+    width: 300px;
+}
+ .section-1{
+  padding-top: 40px;
+   padding-bottom: 400px;
+    background-color: #fff;
+}
+.a-tag{
+  color: #000 ;
+  font-size: 25px;
 
+}
+.li-tag{
+  padding: 10px;
+
+}
+.h1-custom{
+  color:#ffffff;
+  font-weight: 500;
+}
